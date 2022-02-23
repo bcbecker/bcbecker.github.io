@@ -2631,6 +2631,19 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 	}
+		.image.logo {
+			border-radius: 25%;
+			height: 6rem;
+			width: 6rem;
+			margin: 1rem;
+		}
+		
+			.image.logo:hover {
+				-moz-transform: scale(1.05);
+				-webkit-transform: scale(1.05);
+				-ms-transform: scale(1.05);
+				transform: scale(1.05);
+			}
 
 		.image img {
 			display: block;
